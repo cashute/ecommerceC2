@@ -1,0 +1,27 @@
+body{
+ 
+}
+
+.flex-head{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+.productos {
+    width: 80rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    align-items: stretch;
+}
+
+.producto-size {
+    width: 20rem;
+
+}
