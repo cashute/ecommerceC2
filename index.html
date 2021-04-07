@@ -10,13 +10,13 @@
 </head>
 
 <body>
-    <header class="bg-light">
+    <header class="">
         <div class="flex-head">
             <div class="">
                 <a href="index.html"><img src="img/cashutech.png" width="200px"></a>
             </div>
             <div class="">    
-                <nav class="navbar navbar-light bg-light">
+                <nav class="navbar navbar-light">
                     <div class="container-fluid">
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
@@ -58,90 +58,110 @@
 
     </header>   
 
-    <div align="center">
-        <img src="img/banner1.jpg" alt="" width="1200px">
+    <div class="slider-container">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/banner1.jpg" class="d-block w-100" alt="..."  height="450px">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/banner2.png" class="d-block w-100" alt="..."  height="450px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </div>
 
-    <div align="center">
+    <hr>
+
+    <div>
+        
         <div class="productos">
-            <div class="card producto-size">
+            <div class="card mb-3 ">
                 <a href="asusf505Caract.html"><img src="img/notebook-asus-fx505.jpg" class="card-img-top" alt="notebook-asus-fx505"></a>
                 <div class="card-body">
-                <h5 class="card-title">Notebook Gamer ASUS TUF FX505</h5>
+                <h6 class="card-title">Notebook Gamer ASUS TUF FX505</h6>
                 <p class="card-text">$130000</p>
-                <a href="#" class="btn btn-primary">Agregar</a>
+                <a href="#" class="btn btn-outline-primary w-100">Agregar</a>
                 </div>
             </div>
 
-            <div class="card producto-size">
+            <div class="card mb-3">
                 <a href="#"><img src="img/logitech-pro-x.jpg" class="card-img-top" alt="logitech-pro-x"></a>
                 <div class="card-body">
-                <h5 class="card-title">Auriculares Logitech Pro X</h5>
+                <h6 class="card-title">Auriculares Logitech Pro X</h6>
                 <p class="card-text">$15000</p>
-                <a href="#" class="btn btn-primary">Agregar</a>
+                <a href="#" class="btn btn-outline-primary  w-100">Agregar</a>
                 </div>
             </div>
 
-            <div class="card producto-size">
+            <div class="card mb-3">
                 <a href="#"><img src="img/rtx3080-msi.jpg" class="card-img-top" alt="rtx3080-msi"></a>
                 <div class="card-body">
-                <h5 class="card-title">Placa de Video MSI GeForce RTX 3080 10GB</h5>
+                <h6 class="card-title">Placa de Video MSI GeForce RTX 3080 10GB</h6>
                 <p class="card-text">$370000</p>
-                <a href="#" class="btn btn-primary">Agregar</a>
+                <a href="#" class="btn btn-outline-primary w-100">Agregar</a>
                 </div>
             </div>
 
-            <div class="card producto-size">
+            <div class="card mb-3">
                 <a href="#"><img src="img/pc-inte-i7.jpg" class="card-img-top" alt="pc-inte-i7"></a>
                 <div class="card-body">
-                <h5 class="card-title">PC Intel I7 10700 8GB 240GB</h5>
+                <h6 class="card-title">PC Intel I7 10700 8GB 240GB</h6>
                 <p class="card-text">$70000</p>
-                <a href="#" class="btn btn-primary">Agregar</a>
+                <a href="#" class="btn btn-outline-primary  w-100">Agregar</a>
                 </div>
             </div>
 
-            <div class="card producto-size">
+            <div class="card mb-3">
                 <a href="#"><img src="img/i5-9400.jpg" class="card-img-top" alt="i5-9400"></a>
                 <div class="card-body">
-                <h5 class="card-title">Microprocesador Intel I5 9400F</h5>
+                <h6 class="card-title">Microprocesador Intel I5 9400F</h6>
                 <p class="card-text">$20000</p>
-                <a href="#" class="btn btn-primary">Agregar</a>
+                <a href="#" class="btn btn-outline-primary  w-100">Agregar</a>
                 </div>
             </div>
 
-            <div class="card producto-size">
+            <div class="card mb-3">
                 <a href="#"><img src="img/gloriusxxl.jpg" class="card-img-top" alt="gloriusxxl"></a>
                 <div class="card-body">
-                <h5 class="card-title">Mousepad Glorious XXL</h5>
+                <h6 class="card-title">Mousepad Glorious XXL</h6>
                 <p class="card-text">$6000</p>
-                <a href="#" class="btn btn-primary">Agregar</a>
+                <a href="#" class="btn btn-outline-primary  w-100">Agregar</a>
                 </div>
             </div>
 
-            <div class="card producto-size">
+            <div class="card mb-3">
                 <a href="#"><img src="img/logitech-g403.jpg" class="card-img-top" alt="logitech-g403"></a>
                 <div class="card-body">
-                <h5 class="card-title">Mouse Logitech G403 Hero Gaming</h5>
+                <h6 class="card-title">Mouse Logitech G403 Hero Gaming</h6>
                 <p class="card-text">$4300</p>
-                <a href="#" class="btn btn-primary">Agregar</a>
+                <a href="#" class="btn btn-outline-primary  w-100">Agregar</a>
                 </div>
             </div>
 
-            <div class="card producto-size">
+            <div class="card mb-3">
                 <a href="#"><img src="img/hyperx-ram-8gb.jpg" class="card-img-top" alt="hyperx-ram-8gb"></a>
                 <div class="card-body">
-                <h5 class="card-title">Memoria Ram Ddr4 8gb 2666mhz Hyperx Fury Rgb</h5>
+                <h6 class="card-title">Memoria Ram Ddr4 8gb 2666mhz Hyperx Fury Rgb</h6>
                 <p class="card-text">$4500</p>
-                <a href="#" class="btn btn-primary">Agregar</a>
+                <a href="#" class="btn btn-outline-primary  w-100">Agregar</a>
                 </div>
             </div>
 
-            <div class="card producto-size">
+            <div class="card mb-3">
                 <a href="#"><img src="img/fuente-gamemax.jpg" class="card-img-top" alt="fuente-gamemax"></a>
                 <div class="card-body">
-                <h5 class="card-title">Fuente GAMEMAX 600W 80+ Bronze</h5>
+                <h6 class="card-title">Fuente GAMEMAX 600W 80+ Bronze</h6>
                 <p class="card-text">$9000</p>
-                <a href="#" class="btn btn-primary">Agregar</a>
+                <a href="#" class="btn btn-outline-primary  w-100">Agregar</a>
                 </div>
             </div>
         </div>
@@ -149,24 +169,31 @@
 
     <hr>
 
-    <footer>
-        <table align="center">
-            <tr>
-                <td>Nosotros:</td>
-                <td>Seguinos!</td>
-            </tr>
-            <tr>
-                <td>Somos una tienda online de componentes<br> para PC, Notebooks, celulares y articulos<br>  Gamers</td>
-                <td>
+    <footer class="bg-primary text-white pt-4 pb-4">
+        <div>
+            <div>
+                <h5><b>Nosotros:</b></h5>
+            </div>
+            <div>
+                <p>Somos una tienda online de componentes para PC, Notebooks, celulares y articulos Gamers</p>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h5><b>Seguinos!</b></h5>
+            </div>
+            <div>
+                <li class="nav-item" style="list-style: none;">
                     <a href="#"><img src="img/facebook.png" width="30" height="30"></a>
                     <a href="#"><img src="img/instagram.png" width="30" height="30"></a>
                     <a href="#"><img src="img/twitter.png" width="30" height="30"></a>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-            </tr>
-        </table>
+                </li>
+
+            </div>
+        </div>
+
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
